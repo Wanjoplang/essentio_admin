@@ -1,0 +1,44 @@
+<h5 class="text-end"><span class="text-muted fs-6">Hello</span> <small class="fw-lighter fst-italic">User</small></h5>
+<div class="table-responsive" id="roster"> 
+    <h2 class="text-center">ROSTER HEADER</h2>
+    <table class="table table-striped table-hover table-bordered table-sm table-centered text-center">
+        <thead class="table-dark align-middle">
+            <tr>
+                <th>DATE</th><th>SESSION 1</th><th>SESSION 2</th><th>OFF</th>
+            </tr>
+        </thead>
+        <tbody class="align-middle">
+            <tr>
+                <td></td><td id="col11"></td><td id="col12"></td><td id="off1" data-col1="col11" data-col2="col12"></td>
+            </tr>
+            <tr>
+                <td></td><td id="col21"></td><td id="col22"></td><td id="off2" data-col1="col21" data-col2="col22"></td>
+            </tr>
+            <tr>
+                <td></td><td id="col31"></td><td id="col32"></td><td id="off3" data-col1="col31" data-col2="col32"></td>
+            </tr>
+            <tr>
+                <td></td><td id="col41"></td><td id="col42"></td><td id="off4" data-col1="col41" data-col2="col42"></td>
+            </tr>
+            <tr>
+                <td></td><td id="col51"></td><td id="col52"></td><td id="off5" data-col1="col51" data-col2="col52"></td>
+            </tr>
+            <tr>
+                <td></td><td id="col61"></td><td id="col62"></td><td id="off6" data-col1="col61" data-col2="col62"></td>
+            </tr>
+            <tr>
+                <td></td><td id="col71"></td><td id="col72"></td><td id="off7" data-col1="col71" data-col2="col72"></td>
+            </tr>
+            <tr>
+                <td></td><td id="col81"></td><td id="col82"></td><td id="off8" data-col1="col81" data-col2="col82"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<p class="text-center display-2">
+    <button type="button" class="btn btn-warning btn-lg" data-edit="no" id="edit" onclick="edit_content()">Edit <i class="fas fa-edit"></i></button>
+    <button type="button" class="btn btn-success btn-lg" onclick="upload()">Upload <i class="fas fa-cloud-upload-alt"></i></button>
+    <button type="button" class="btn btn-info btn-lg" onclick="print_page()">Print <i class="fas fa-print"></i></button>
+</p>
+
+<script src="scripts/home.js"></script>
